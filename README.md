@@ -69,9 +69,7 @@ Welcome to the Selenium Automation Demo Project! This project serves as hands-on
     2. src/test/java - contains test case classes
     3. src/test/resource - contails configurations, test data related files
 
-Here is a screenshot:
 
-![Folder Structure](https://github.com/swatinerkar/selenium-testng-demo-project/blob/develop/images/Selenium-Project-Folder-Structure.png)
 ## Framework
 
 Used testNg and POM results in hybrid Framework
@@ -85,9 +83,7 @@ It has following components:
     6. Utilities
     7. Report
 
-Here is a framework flow diagram
 
-![Framework Flow Diagram](https://github.com/swatinerkar/selenium-testng-demo-project/blob/develop/images/Framework-flowdiagram.png)
 
 ## Project Setup
 To run the test scenarios, need to have followings on your machine:
@@ -101,9 +97,6 @@ To run the test scenarios, need to have followings on your machine:
 
   Go to the folder location where you want to keep local copy of the project
 
-```bash
-  git clone https://github.com/swatinerkar/selenium-testng-demo-project
-```
 
 - Import the project as Maven project in any IDE (Eclipse/IntelliJ)
 
@@ -111,23 +104,17 @@ To run the test scenarios, need to have followings on your machine:
   - right click on testng.xml
   - Run as -> TestNG suite
 
-  ![testng.xml](https://github.com/swatinerkar/selenium-testng-demo-project/blob/main/images/Sample_Run_Via_testng.xml%20File.png)
-
-
+ 
 - #### To run complete suite via maven
   - Right click on POM.xml file
   - Run as -> Maven test
 
-  ![POM.xml](https://github.com/swatinerkar/selenium-testng-demo-project/blob/main/images/Sample_Run_Via_pom.xml%20file.png)
-
+  
 - #### To run via Run configuration
   - Go to Run on Toolbar
   - Run configuration
   - Select workplace, and add goals as 'test'
   - Click Apply and Run
-
-  ![Run Configurations](https://github.com/swatinerkar/selenium-testng-demo-project/blob/main/images/Sample_Run_Via_Run%20Configurations.png)
-
 
 
 
